@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.goods-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.goods-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.goods-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.goods-card p {
+  font-size: 1em;
+  color: #888;
+}
